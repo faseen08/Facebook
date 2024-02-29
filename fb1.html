@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fb1.css" type="text/css"> 
+    <title>Facebook</title>
+</head>
+<body>
+    <script type="text/javascript" src="jquery-3.7.1.js" ></script>
+    <script src="fb1.js"></script>
+    <script src="jquery.validate.js"></script>
+
+    <div class="conatainer">
+    <div class="header">
+        <div class="logo">
+            <a class="logo-text" href="fb1.html">facebook</a>
+        </div>
+        <div class="login">
+            <form action="">
+
+            <table class="login-controls">
+                <tr>
+                   <td><label class="login-label">Email or Mobile</label></td>
+                    <td><label class="login-label">Password</label></td>
+                </tr>
+                <tr>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input class="sub-btn" type="submit" value="Login"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><a href="fb.html" id="forgot">Forgot Password?</a></td>
+                </tr>
+            </table>
+        </form>
+        </div>
+    </div>
+
+    <div class="main-body">
+        <div class="left-section">
+
+            <p class="para">This is<label class="red"> Red facebook</label>. Made for not to tracked by Zuckerberg.</p>
+            <h1 id="face">facebook</h1>
+
+        </div>
+
+        <div class="right-section">
+
+            <h1 id="form-heading">Create an Account</h1>
+            <h3 id="quick">It's quick and easy</h3>
+
+            <form class="all-form" id="all-form">
+                <input name="fname" id="f-name" type="text" placeholder="First Name">
+                <input name="sname" id="s-name" type="text" placeholder="Surname">
+                <br>
+                <input name="mnum" id="m-number" type="text" placeholder="Mobile Number">
+                <br>
+                <input name="pass" id="password" type="text" placeholder="New password">
+
+                <p id="birth">Birthday</p>
+                <br>
+                <div id="date">
+                <select name="day" >
+                    <option value="">Date</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    <option>13</option>
+                    <option>14</option>
+                </select>
+                <select name="month">
+                    <option>Month</option>
+                    <option>January</option>
+                    <option>February</option>
+                    <option>March</option>
+                    <option>April</option>
+                    <option>May</option>
+                    <option>June</option>
+                    <option>July</option>
+                    <option>August</option>
+                    <option>September</option>
+                    <option>October</option>
+                    <option>November</option>
+                    <option>December</option>
+                </select>
+                <select name="year">
+                    <option>Year</option>
+                    <option>2000</option>
+                    <option>2001</option>
+                    <option>2003</option>
+                    <option>2004</option>
+                    <option>2005</option>
+                    <option>2006</option>
+                </select>
+                <button>?</button>
+            </div>
+            <div>
+            <p id="gender">Gender</p>
+            <div id="gender-btn">
+            <input type="radio" name="Gender" value="Male" class="radio-btn">
+            <label>Male</label>
+
+            <input type="radio" name="Gender" value="Female" class="radio-btn">
+            <label>Female</label>
+
+            <input type="radio" name="Gender" value="Custom" class="radio-btn">
+            <label>Custom</label>
+            
+            <button>?</button>
+            </div>
+            </div>
+
+            <input type="submit" value="Submit" id="submit-btn">
+            </form>
+        </div>
+    </div>
+    </div>
+    
+</body>
+</html>
